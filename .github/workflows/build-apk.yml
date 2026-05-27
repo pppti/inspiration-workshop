@@ -43,5 +43,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: spiritual-practice-apk
+          name: inspiration-workshop-apk
           path: android/app/build/outputs/apk/release/*.apk
